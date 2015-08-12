@@ -135,3 +135,6 @@ function find_commit_by_string() {
     git log -S "${(q)1}" --source --all
 }
 
+# set path for virtualenvs
+export PATH=$PATH:~/.venv/bin
+
