@@ -1,7 +1,7 @@
 ZSHRC=$(readlink "$HOME"/.zshrc)
 ZSH_DIR=$(dirname "$ZSHRC")
 
-export PATH="$HOME/bin:$HOME/Documents/go-zone/bin:$(brew --prefix go)/libexec/bin:$(brew --prefix gnu-sed)/libexec/gnubin:$(brew --prefix coreutils)/libexec/gnubin:$(brew --prefix findutils)/bin:$(brew --prefix ruby)/bin:/usr/local/share/npm/bin:/usr/local/sbin:/usr/local/bin:${PATH}"
+export PATH="$HOME/.venv/bin:$HOME/bin:$HOME/Documents/go-zone/bin:$(brew --prefix go)/libexec/bin:$(brew --prefix gnu-sed)/libexec/gnubin:$(brew --prefix coreutils)/libexec/gnubin:$(brew --prefix findutils)/bin:$(brew --prefix ruby)/bin:/usr/local/share/npm/bin:/usr/local/sbin:/usr/local/bin:${PATH}"
 export MANPATH="$(brew --prefix gnu-sed)/libexec/gnuman:$MANPATH"
 export GOPATH="$HOME/Documents/go-zone"
 export NODE_PATH="/usr/local/lib/node_modules"
